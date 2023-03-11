@@ -17,17 +17,17 @@ def dvision(request):
     return HttpResponse(vision)
 
 def dobjects(request):
-    objects = """OBJECT - After graduation, alumni of MSEUF-CSS program shall:
+    objects = """OBJECT - After graduation, alumni of MSEUF-CSS program shall:<br>
      
-      1 . Be employed and demostrate professionalism, competence and passion in solving 
-      contemporary computing problems by developing or utilizing innovative IT solutions:
+      1 . Be employed and demostrate professionalism, competence and passion in solving <br>
+      contemporary computing problems by developing or utilizing innovative IT solutions:<br>
        
-      2. Emabark in lifelong learning or reseach to attune to the 
-      continuos innovation in the IT industry in order to adapt to 
-      the changing demands of the global market: and
+      2. Emabark in lifelong learning or reseach to attune to the <br>
+      continuos innovation in the IT industry in order to adapt to <br>
+      the changing demands of the global market: and<br>
 
-      3. Exhibit leadership and teamwork, and commitment to thier 
-      respective local or global organizations.
+      3. Exhibit leadership and teamwork, and commitment to thier <br>
+      respective local or global organizations.<br>
          
             """
     
